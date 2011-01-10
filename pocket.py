@@ -23,7 +23,7 @@ angle = 0
 
 while 1:
 	depth, timestamp = freenect.sync_get_depth()
-	rgb, timestamp = freenect.sync_get_video()
+	rgb, timestamp = freenect.sync_get_rgb()
 #	final = np.zeros((480,640,3), dtype=np.uint8)	
 #	for i in xrange(120, 360, 2):
 #		for j in xrange(160, 480, 2):

@@ -30,7 +30,7 @@ def main():
 	ball_load = True
 	while running:
 		depth, _ = freenect.sync_get_depth()
-#		rgb, _ = freenect.sync_get_video()
+		rgb, _ = freenect.sync_get_rgb()
 		
 		if load :
 			bullet = load_bullet()
