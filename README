@@ -9,5 +9,11 @@ Key Movements: 	Left Hand  - Move Right
 		Right Hand - Move Up
 		Right Foot - Move Down
 		
-
+---------------------------------------------------------
+File: shoot.py
+Author: Kunal Kerkar (kunalkerkar@gmail.com)
+Description: Shoot the ball that appears
+Hand Movements: Left Hand Up - Move Up
+		Left Hand Down - Move Down
+		Right Side - Shoot
 
